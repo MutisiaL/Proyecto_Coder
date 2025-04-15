@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- archivo css -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Acerca de</title>
+  <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      padding-top: 70px;
+      font-family: 'Uchen', serif;
+      background-image: url('../imagenes/fondo.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #1b1b1b;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      border-radius: 15px;
+      margin-top: 2rem;
+    }
+    .navbar {
+      background-color: #81c784 !important;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    .nav-link:hover {
+      color: #e8f5e9 !important;
+    }
+    h1, h2, h3 {
+      color: #1b5e20;
+    }
+    footer {
+      background-color: rgba(165, 214, 167, 0.95);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    footer img {
+      height: 30px;
+      margin-right: 0.5rem;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      color: #1b1b1b;
+      font-weight: bold;
+      margin: 0.5rem;
+    }
+    .mapa {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #1b1b1b;
+      font-weight: bold;
+      gap: 0.5rem;
+    }
+    .mapa iframe {
+      border: 0;
+      width: 200px;
+      height: 100px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">VerdeVida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="acercade.html">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link" href="plantas.html">Plantas</a></li>
+          <li class="nav-item"><a class="nav-link" href="macetas.html">Macetas</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container d-flex justify-content-center align-items-center">
+    <div class="col-12 col-md-10 col-lg-8 text-center">
+      <h1>Nuestra Historia</h1>
+      <p>
+        VerdeVida nació como un pequeño invernadero familiar en el patio de casa.  
+        Con amor, paciencia y mucha dedicación, fuimos creciendo junto a nuestras plantas.  
+        Lo que empezó como un pasatiempo se convirtió con el tiempo en un proyecto que nos conecta con la naturaleza y con las personas.  
+        Hoy, VerdeVida es mucho más que un invernadero: es un espacio donde compartimos nuestra pasión por la vida verde,  
+        acompañando a quienes buscan transformar sus hogares en lugares llenos de armonía y frescura.
+      </p>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="social">
+      <img src="../imagenes/LOGO_IG.jpeg" alt="Instagram" />
+      <span>@VerdeVida</span>
+    </div>
+    <div class="social">
+      <img src="../imagenes/LOGO_FB.png" alt="Facebook" />
+      <span>Verde Vida</span>
+    </div>
+    <div class="mapa">
+      <span>Visitanos</span>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.744753606451!2d-58.4193513!3d-34.6345566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2e83d52c3b%3A0x89f5e6f8e2491c28!2sParque%20Centenario!5e0!3m2!1ses!2sar!4v1618327082283!5m2!1ses!2sar" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
