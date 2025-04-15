@@ -1,3 +1,4 @@
+/*estilos generales del body*/
 body {
     padding-top: 70px;
     font-family: 'Uchen', serif;
@@ -7,7 +8,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
   }
-  
+
+  /*contenedor principal*/
   main {
     flex: 1;
     padding: 2rem;
@@ -16,26 +18,31 @@ body {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
-  
+
+  /*estilos para la barra de navegacion*/
   .navbar {
     background-color: #81c784 !important;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
+  /*texto blanco y transicion cuando pasa el mouse por los enlaces*/
   .navbar-brand,
   .nav-link {
     color: white !important;
     transition: color 0.3s ease;
   }
   
+  /*hover en los enlaces del navbar*/
   .nav-link:hover {
     color: #e8f5e9 !important;
   }
   
+  /*color de los titulos*/
   h1, h2, h3 {
     color: #1b5e20;
   }
   
+  /*estilos para el footer*/
   footer {
     background-color: rgba(165, 214, 167, 0.95);
     padding: 1rem;
@@ -46,12 +53,14 @@ body {
     text-align: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
-  
+
+  /*estilo para las imagenes del footer*/
   footer img {
     height: 30px;
     margin-right: 0.5rem;
   }
   
+  /*contenedor de las redes sociales*/
   .social {
     display: flex;
     align-items: center;
@@ -61,10 +70,12 @@ body {
     transition: transform 0.3s;
   }
   
+  /*hover redes para agrandar cuando pasa el mouse*/
   .social:hover {
     transform: scale(1.05);
   }
   
+  /*estilo para el mapa*/
   .mapa {
     display: flex;
     flex-direction: column;
@@ -74,6 +85,7 @@ body {
     gap: 0.5rem;
   }
   
+  /*estilo para el iframe del mapa*/
   .mapa iframe {
     border: 0;
     width: 200px;
@@ -82,6 +94,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
   
+  /*contenedor de columnas para secciones*/
   .columnas {
     display: flex;
     justify-content: space-around;
@@ -90,6 +103,7 @@ body {
     flex-wrap: wrap;
   }
   
+  /*cada columna como elemento*/
   .columna {
     text-align: center;
     max-width: 300px;
@@ -100,17 +114,20 @@ body {
     transition: transform 0.3s ease;
   }
   
+  /*otro hover para cuando pasa el mouse por la columna*/
   .columna:hover {
     transform: translateY(-5px);
   }
   
+  /*imagenes dentro de la columna*/
   .columna img {
     width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 1rem;
   }
-  
+ 
+  /*estilos para botones*/
   button, .btn {
     background-color: #66bb6a;
     color: white;
@@ -120,6 +137,7 @@ body {
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
+  /*hover para hacer mas oscuro y grande cuando pasa el mouse*/
   button:hover, .btn:hover {
     background-color: #558b2f;
     transform: scale(1.05);
