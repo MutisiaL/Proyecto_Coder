@@ -1,0 +1,10 @@
+// Placeholder para las columnas
+%columna-base {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    @include transform-transition(0.3s);
+  }
+  

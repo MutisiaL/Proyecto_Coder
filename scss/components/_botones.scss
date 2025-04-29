@@ -1,0 +1,5 @@
+@import '../abstracts/placeholders';
+
+button, .btn {
+  @extend %btn-base;
+}

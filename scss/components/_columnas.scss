@@ -1,0 +1,15 @@
+@import '../abstracts/placeholders';
+
+.columna1 {
+  @extend %columna-base;
+  
+}
+
+.columna2 {
+  @extend %columna-base;
+  
+}
+
+.columna3 {
+  @extend %columna-base;
+}

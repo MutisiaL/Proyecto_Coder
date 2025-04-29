@@ -1,0 +1,4 @@
+// Mixin para agregar una transición de transformación
+@mixin transform-transition($time) {
+    transition: transform $time ease;
+  }
