@@ -1,9 +1,9 @@
 // Importar todo lo que necesitamos
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-@import 'abstracts/placeholders';
-@import 'base/base';
-@import 'layouts/navbar';
-@import 'layouts/footer';
-@import 'components/columnas';
-@import 'components/botones';
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+@use 'abstracts/placeholders';
+@use 'base/base';
+@use 'layouts/navbar';
+@use 'layouts/footer';
+@use 'components/columnas';
+@use 'components/botones';
